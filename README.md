@@ -1,15 +1,12 @@
 # Arduino Two-Way Traffic Light Controller
-
 Arduino-based two-way traffic light controller using timer-based control and an external interrupt for a programmed pedestrian/special mode.
 
 ## Overview
-
 This project implements a two-way traffic light system using an Arduino UNO. Red, yellow and green LEDs represent the signals for two traffic directions.
 
 The controller normally follows an automatic sequence using timer-based control. A push button connected to an external interrupt can trigger a programmed special mode when required.
 
 ## Objectives
-
 - Design a two-way traffic light control system.
 - Automate the switching between RED, YELLOW and GREEN signals.
 - Use timer-based control for predictable signal transitions.
